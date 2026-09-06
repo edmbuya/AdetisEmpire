@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Make a stay enquiry with Adetis Empire in Siaya, Kenya.">
+    <title>Enquire — Adetis Empire</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Adetis Empire home"><span class="brand-name">Adetis Empire</span><span class="brand-place">Siaya · Kenya</span></a>
+        <nav class="desktop-nav" aria-label="Primary navigation"><a class="line-link" href="index.html#stay">The stay</a><a class="line-link" href="about.html">Our story</a><a class="line-link" href="gallery.html">Gallery</a><a class="outline-link" href="enquire.html">Enquire</a></nav>
+        <button class="menu-toggle" type="button" data-menu-button aria-expanded="false" aria-label="Open menu">☰</button>
+      </div>
+      <nav class="mobile-nav" data-mobile-nav aria-label="Mobile navigation"><a href="index.html#stay">The stay</a><a href="about.html">Our story</a><a href="gallery.html">Gallery</a><a href="enquire.html">Make an enquiry →</a></nav>
+    </header>
+
+    <main>
+      <section class="page-hero"><div class="container"><p class="eyebrow eyebrow-light">Your time, your way</p><h1>Let’s make a little space.</h1><p>Tell us when you’d like to come and what kind of stay you have in mind. We’ll take it from there.</p></div></section>
+      <section class="section section-terracotta">
+        <div class="narrow-container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow" style="color: rgba(24,55,46,.7)">Plan your stay</p>
+            <p>Whether you’re joining us for a few nights or settling in for longer, send us your dates and we’ll confirm what’s available.</p>
+            <div class="direct-contact"><span>Prefer to write directly?</span><a href="mailto:adetismpire@gmail.com">adetismpire@gmail.com</a><a href="tel:+254106682657">+254106682657</a></div>
+          </div>
+          <div class="enquiry-form">
+            <div class="form-intro"><p class="eyebrow">Tell us a little</p><h2>Plan your time in Siaya.</h2></div>
+            <form class="form-grid" data-enquiry-form>
+              <label class="field">Check in<input required type="date" name="checkIn"></label>
+              <label class="field">Check out<input required type="date" name="checkOut"></label>
+              <label class="field">Stay type<select name="stayType"><option value="Short stay">Short stay</option><option value="Longer-term stay">Longer-term stay</option></select></label>
+              <label class="field">Guests<select name="guests"><option>1 guest</option><option selected>2 guests</option><option>3 guests</option><option>4 guests</option><option>5+ guests</option></select></label>
+              <label class="field">Your name<input required name="name" placeholder="First and last name"></label>
+              <label class="field">Email or phone<input required name="contact" placeholder="How should we reach you?"></label>
+              <label class="field full">A note for us<textarea name="message" placeholder="Tell us what brings you to Siaya..." rows="3"></textarea></label>
+              <div class="form-actions"><button class="button" type="submit">Send enquiry <span>→</span></button><p class="form-note">We’ll reply personally with availability and rates. No payment is taken here.</p></div>
+            </form>
+            <div class="confirmation" data-confirmation hidden><div><div class="checkmark">✓</div><p class="eyebrow">Enquiry received</p><h2>We’ll be in touch soon.</h2><p>Your email app should have opened with the details. If not, write to adetismpire@gmail.com or call +254106682657.</p><button class="text-button" type="button" data-new-enquiry>Send another enquiry</button></div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container"><div class="footer-grid">
+        <div><p class="footer-title">Come as you are.<br>Stay a little longer.</p><p class="footer-copy">A considered country stay for quiet mornings, open skies and good company.</p></div>
+        <div><p class="footer-heading">Explore</p><div class="footer-links"><a class="line-link" href="index.html">Home</a><a class="line-link" href="about.html">About Adetis</a><a class="line-link" href="gallery.html">Gallery</a><a class="line-link" href="enquire.html">Enquire</a></div></div>
+        <div><p class="footer-heading">Good to know</p><div class="footer-links"><a class="line-link" href="privacy.html">Privacy policy</a><a class="line-link" href="cookies.html">Cookie policy</a><a class="line-link" href="mailto:adetismpire@gmail.com">adetismpire@gmail.com</a><a class="line-link" href="tel:+254106682657">Mobile +254106682657</a><span>Siaya, Western Kenya</span></div></div>
+      </div><div class="footer-bottom"><span>© <span data-year></span> Adetis Empire</span><span>Made for slower days</span></div></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
