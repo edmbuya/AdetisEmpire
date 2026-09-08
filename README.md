@@ -1,6 +1,6 @@
-# Adetis Empire — static website
+# ENIPHLODD VENTURES — static website
 
-This is the framework-free version of the Adetis Empire website. It uses HTML, CSS, and a small amount of vanilla JavaScript for the mobile menu, enquiry form, and copyright year.
+This is the framework-free version of the ENIPHLODD VENTURES website. It uses HTML, CSS, and a small amount of vanilla JavaScript for the mobile menu, enquiry form, and copyright year.
 
 ## Publish directly with GitHub Pages
 
@@ -12,7 +12,7 @@ This is the framework-free version of the Adetis Empire website. It uses HTML, C
 
 Because this version is already static, no `npm install`, build command, workflow, or Node.js is needed.
 
-The custom-domain file `CNAME` is included for `adetisempire.co.ke`. Keep it in the repository root.
+The custom-domain file `CNAME` is included for `eniphlodventures.co.ke`. Keep it in the repository root.
 
 ## Included functionality
 
@@ -20,5 +20,5 @@ The custom-domain file `CNAME` is included for `adetisempire.co.ke`. Keep it in 
 - Working navigation links without client-side routing
 - Responsive mobile navigation
 - Responsive villa photo gallery
-- Enquiry form with a pre-filled email to `adetismpire@gmail.com`
-- Click-to-call mobile link for `+254106682657`
+- Enquiry form with a pre-filled email to `eniphlodventures@gmail.com`
+- Click-to-call mobile link for `0750000700`

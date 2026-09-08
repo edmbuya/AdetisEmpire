@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const form = new FormData(enquiryForm);
       const name = form.get("name") || "a guest";
       const body = [
-        "Hello Adetis Empire,",
+        "Hello ENIPHLODD VENTURES,",
         "",
         form.get("message") || "",
         "",
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `Contact: ${form.get("contact") || ""}`,
       ].join("\n");
       const subject = encodeURIComponent(`Stay enquiry from ${name}`);
-      window.location.href = `mailto:adetismpire@gmail.com?subject=${subject}&body=${encodeURIComponent(body)}`;
+      window.location.href = `mailto:eniphlodventures@gmail.com?subject=${subject}&body=${encodeURIComponent(body)}`;
       enquiryForm.hidden = true;
       confirmation.hidden = false;
     });
